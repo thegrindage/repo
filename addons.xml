@@ -37,4 +37,34 @@
     <platform>all</platform>
   </extension>
 </addon>
+<addon id="plugin.program.grindthemes" name="[COLORghostwhite][B]GRIND[/B][/COLOR] [COLORred][B]Themes[/B][/COLOR]" version="1.1.1" provider-name="[COLORyellow][B]Yo' Boy From Oklahoma[/B][/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">GRIND Themes</summary>
+    <description lang="en">Themes</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="repository.thegrindage" name="[COLORghostwhite][B]GRIND[/B][/COLOR] [COLORred][B]Repository[/B][/COLOR]" version="1.1.1" provider-name="[COLORyellow][B]Yo' Boy From Oklahoma[/B][/COLOR]">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0" />
+  </requires>
+  <extension point="xbmc.addon.repository" name="Grind repository">
+    <info compressed="false">https://raw.githubusercontent.com/thegrindage/repo/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/thegrindage/repo/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/thegrindage/zips/master/addons/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Grind Repository!</summary>
+    <description>The Grind Repository!</description>
+    <disclaimer></disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
 </addons>
