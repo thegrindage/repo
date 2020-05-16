@@ -66,7 +66,7 @@
     <platform>all</platform>
   </extension>
 </addon>
-  <addon id="script.module.urlresolver" name="URLResolver" version="99.100.02" provider-name="WatupWatup">
+<addon id="script.module.urlresolver" name="URLResolver" version="99.100.02" provider-name="WatupWatup">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -84,5 +84,5 @@
         <forum>https://www.tvaddons.co/forums</forum>
         <website>https://www.tvaddons.co</website>
 	</extension>
-</addon> 
+</addon>
 </addons>
